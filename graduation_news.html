@@ -48,6 +48,12 @@
 
         .author {
             margin-top: 20px;
+            font-size: 15px;
+            font-weight: 300;
+            color: #6d615b;
+            text-align: right;
+        }
+        .photographer {
             margin-bottom: 20px;
             font-size: 15px;
             font-weight: 300;
@@ -63,6 +69,17 @@
 
         @media screen and (min-width:1024px) {
             .author {
+                max-width: 900px;
+            }
+        }
+        @media screen and (min-width:768px) {
+            .photographer {
+                max-width: 700px;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            .photographer {
                 max-width: 900px;
             }
         }
@@ -203,21 +220,6 @@
 <body>
     <!--這是logo、share、hamburger-->
     <header>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="logo"></div>
-                    </td>
-                    <td>
-                        <div class="share"></div>
-                    </td>
-                    <td>
-                        <div class="hamburger"></div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
     </header>
     <article>
         <!--這是大標、副標、作者列-->
@@ -225,6 +227,7 @@
             <div class="h1">關於</div>
             <div class="h1">政大傳院不分系</div>
             <div class="author">文、圖 / 龐家姍、陳韻如</div>
+            <div class="photographer">攝影 / 李庚霖</div>
         </header>
 
         <!--這是封面圖-->
