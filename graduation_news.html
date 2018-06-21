@@ -21,6 +21,20 @@
             margin: 0 auto;
         }
 
+        @media screen and (min-width:768px) {
+            article>p {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            article>p {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+        }
+
         header {
             max-width: calc(280/320*100%);
             margin: 0 auto;
@@ -64,7 +78,19 @@
             font-size: 15px;
             font-weight: 300;
             color: #6d615b;
-            text-align: left;
+            text-align: right;
+        }
+
+        @media screen and (min-width:768px) {
+            .author {
+                max-width: 700px;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            .author {
+                max-width: 900px;
+            }
         }
 
         .opening {
@@ -86,6 +112,24 @@
 
         article>figure {
             margin: 0 0 20 0;
+        }
+
+        .cenfig {
+            text-align: center;
+        }
+
+        @media screen and (min-width:768px) {
+            figure {
+                width: 768px;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            figure {
+                width: 1024px;
+                margin: 0 auto;
+            }
         }
 
         .inside-img {
@@ -117,6 +161,18 @@
         .related {
             max-width: calc(280/320*100%);
             margin: 0 auto;
+        }
+
+        @media screen and (min-width:768px) {
+            .related {
+                max-width: 768px;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            .related {
+                max-width: 1024px;
+            }
         }
 
         .related-title {
@@ -190,10 +246,11 @@
         </header>
 
         <!--這是封面圖-->
-        <figure>
-            <img src="cover.jpg" alt="畢業生拋帽" width="100%" />
-        </figure>
-
+        <div class="cenfig">
+            <figure>
+                <img src="cover.jpg" alt="畢業生拋帽" width="100%" />
+            </figure>
+        </div>
         <!--這是導言-->
         <p class="opening">
             順應環境的快速變化，國立政治大學傳播學院自103學年度起，將原先廣告、廣電、新聞三系於大一、大二時合併，大三才進行分系。
@@ -213,9 +270,11 @@
         <p class="small-title">
             歷年分流人數
         </p>
-        <figure class="inside-img">
-            <img src="img2-student.png" alt="歷年分流人數" width="100%" />
-        </figure>
+        <div class="cenfig">
+            <figure class="inside-img">
+                <img src="img2-student.png" alt="歷年分流人數" width="100%" />
+            </figure>
+        </div>
         <p class="inside-word">
             第一屆不分系學生在104年進行分流，表中可以看到七成左右的學生選擇廣告、廣電系，新聞系僅不到三成的學生。第二、第三屆分系分流走向也沒有太大變化，新聞系人數皆沒有超過三成。值得注意的是分流進廣電系的學生人數在增加。
         </p>
@@ -224,9 +283,11 @@
         <p class="small-title">
             三系課程各年級分佈
         </p>
-        <figure class="inside-img">
-            <img src="img1-course.png" alt="三系課程各年級分佈" width="100%" />
-        </figure>
+        <div class="cenfig">
+            <figure class="inside-img">
+                <img src="img1-course.png" alt="三系課程各年級分佈" width="100%" />
+            </figure>
+        </div>
         <p class="inside-word">
             大一大二不分系時，三系開課量較為平均，期望學生利用兩年的時間，探索興趣所在。分流後進入大三大四的專業課程，綜觀開課狀況，新聞系開課數量較少於兩廣科系，此為新聞系學生較為困擾的部分。
         </p>
