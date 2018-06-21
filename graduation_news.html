@@ -13,7 +13,6 @@
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
-
         }
 
         article>p {
@@ -38,31 +37,6 @@
         header {
             max-width: calc(280/320*100%);
             margin: 0 auto;
-        }
-
-
-        .logo {
-            margin-top: 20px;
-            margin-bottom: 25px;
-            background-color: #F2DCBA;
-            height: 20px;
-            width: 20px;
-        }
-
-        .share {
-            margin-top: 20px;
-            margin-bottom: 25px;
-            background-color: #F2DCBA;
-            height: 20px;
-            width: 20px;
-        }
-
-        .hamburger {
-            margin-top: 20px;
-            margin-bottom: 25px;
-            background-color: #F2DCBA;
-            height: 20px;
-            width: 20px;
         }
 
         .h1 {
@@ -94,19 +68,11 @@
         }
 
         .opening {
-            margin-top: 10px;
+            margin-top: 20px;
             margin-bottom: 10px;
             font-size: 22px;
             line-height: 1.5;
             text-align: justify;
-            color: #6d615b;
-        }
-
-        .small-title {
-            margin-top: 20px;
-            font-size: 22px;
-            font-weight: 700;
-            text-align: left;
             color: #6d615b;
         }
 
@@ -217,6 +183,21 @@
         }
     </style>
 
+<!-- facebook 分享的標題 -->
+<meta property="og:title" content="報導者 The Reporter"><meta data-react-helmet="true" property="og:description" content="《報導者》是由「財團法人報導者文化基金會」成立的非營利網路媒體，致力於公共領域的深度報導及調查報導，為讀者持續追蹤各項重要議題。我們秉持開放參與的精神，結合各種進步價值與公民力量，共同打造多元進步的社會與媒體環境。">
+<!-- facebook 分享的縮圖 -->
+<meta property="og:image" content="https://www.twreporter.org/images/og-image-large.jpg"><meta data-react-helmet="true" property="og:type" content="website">
+<!-- facebook 分享的簡述 -->
+<meta property="og:description" content="《報導者》是由「財團法人報導者文化基金會」成立的非營利網路媒體，致力於公共領域的深度報導及調查報導，為讀者持續追蹤各項重要議題。我們秉持開放參與的精神，結合各種進步價值與公民力量，共同打造多元進步的社會與媒體環境。">
+<meta property="og:type" content="website">
+
+<!-- 瀏覽器上的 tab 的縮圖 -->
+<link href="https://www.twreporter.org/asset/favicon.png"  rel="shortcut icon" />
+
+<!--改http://www.web.com.tw/activity/index.html-->
+<meta property="og:url" content="http://www.web.com.tw/activity/index.html" />
+<a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent('http://www.web.com.tw/activity/index.html'))));">點我分享</a>
+
 </head>
 
 <body>
@@ -268,9 +249,6 @@
         </p>
 
         <!--這是第一段：三系分流人數-->
-        <p class="small-title">
-            歷年分流人數
-        </p>
         <div class="cenfig">
             <figure class="inside-img">
                 <img src="img2-student.png" alt="歷年分流人數" width="100%" />
@@ -281,9 +259,6 @@
         </p>
 
         <!--這是第二段：不分系課程統計-->
-        <p class="small-title">
-            三系課程各年級分佈
-        </p>
         <div class="cenfig">
             <figure class="inside-img">
                 <img src="img1-course.png" alt="三系課程各年級分佈" width="100%" />
