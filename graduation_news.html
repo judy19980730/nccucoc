@@ -2,59 +2,164 @@
 
 <head>
     <title>NCCUCOC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
     <style>
         * {
             font-family: "Microsoft JhengHei", "Noto Sans TC", "PingFang TC", "Apple LiGothic Medium", Roboto, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-        }
-        body {
-            margin-left:20px;
-            margin-right:20px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
         }
 
-        .logo {
-            margin-top:20px;
-            margin-bottom:25px;
-            background-color: #F2DCBA;
-            height: 20px;
-            width: 20px;
-        }
-
-        .share {
-            margin-top:20px;
-            margin-bottom:25px;
-            background-color: #F2DCBA;
-            height: 20px;
-            width: 20px;
-        }
-
-        .hamburger {
-            margin-top:20px;
-            margin-bottom:25px;
-            background-color: #F2DCBA;
-            height: 20px;
-            width: 20px;
-        }
-
-        .h1 {
-            font-size: 35px;
-            font-weight: 500;
-            color: #6d615b;
-        }
-
-        .author {
-            margin-top:20px;
-            margin-bottom:20px;
-            font-size: 15px;
-            font-weight: 300;
-            text-align: left;
-            color: #6d615b;
+        article>p {
+            max-width: calc(280/320*100%);
+            margin: 0 auto;
         }
 
         header {
             max-width: calc(280/320*100%);
             margin: 0 auto;
         }
+
+
+        .logo {
+            margin-top: 20px;
+            margin-bottom: 25px;
+            background-color: #F2DCBA;
+            height: 20px;
+            width: 20px;
+        }
+
+        .share {
+            margin-top: 20px;
+            margin-bottom: 25px;
+            background-color: #F2DCBA;
+            height: 20px;
+            width: 20px;
+        }
+
+        .hamburger {
+            margin-top: 20px;
+            margin-bottom: 25px;
+            background-color: #F2DCBA;
+            height: 20px;
+            width: 20px;
+        }
+
+        .h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #6d615b;
+            text-align: center;
+        }
+
+        .author {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            font-weight: 300;
+            color: #6d615b;
+            text-align: left;
+        }
+
+        .opening {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 22px;
+            line-height: 1.5;
+            text-align: justify;
+            color: #6d615b;
+        }
+
+        .small-title {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: left;
+            color: #6d615b;
+        }
+
+        article>figure {
+            margin: 0 0 20 0;
+        }
+
+        .inside-img {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .inside-word {
+            font-size: 18px;
+            line-height: 1.39;
+            letter-spacing: normal;
+            text-align: justify;
+            color: #6d615b;
+        }
+
+        .ending {
+            margin-top: 40px;
+            font-size: 22px;
+            line-height: 1.5;
+            text-align: justify;
+            color: #6d615b;
+        }
+
+        .mr-3 {
+            width: 80px;
+            height: auto;
+        }
+
+        .related {
+            max-width: calc(280/320*100%);
+            margin: 0 auto;
+        } 
+
+        .related-title {
+            margin-top:50px;
+            margin-bottom:20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: #6d615b;
+        }
+        
+        .related-box {
+            padding: 10px;
+            background-color: #e7cfaa;
+        }
+
+        .related-box:hover {
+			background-color: white;
+            cursor:pointer;
+		}
+        
+        .media-body {
+            font-size: 16px;
+            text-align: left;
+            color: #6d615b;
+        }
+
+        .mt-0 {
+            font-size: 18px;
+            text-align: left;
+            color: #6d615b;
+        }
+
+        .buttons {
+
+            max-width: calc(290/320*100%);
+        }
+
+        .btn {
+            background-color: #e7cfaa;
+            color: #6d615b;
+        }
+
     </style>
 
 </head>
@@ -81,11 +186,94 @@
     <article>
         <!--這是大標、副標、作者列-->
         <header>
-            <div class="h1">傳院不分系的誕生與發展</div>
-            <div class="author">文、圖 / 龐家珊、陳韻如</div>
+            <div class="h1">政大傳院不分系誕生與發展</div>
+            <div class="author">文、圖 / 龐家姍、陳韻如</div>
         </header>
 
+        <!--這是封面圖-->
+        <figure>
+            <img src="cover.jpg" alt="畢業生拋帽" width="100%" />
+        </figure>
+
+        <!--這是導言-->
+        <p class="opening">
+            順應環境的快速變化，國立政治大學傳播學院自103學年度起，將原先廣告、廣電、新聞三系於大一、大二時合併，大三才進行分系。
+        </p>
+        <p class="opening">
+            103學年度以前，傳播學院大學部的四個系分別是廣告系、廣電系、新聞系和傳播學程，其中以招收兩個班的新聞系學生最多。
+        </p>
+        <p class="opening">
+            傳播學程則被視為大一二不分系的前身，不分系的目的是希望給予學生探索興趣的時間，讓學生利用兩年的時間選進自己真正想念的系，而不是受限於大學入學考試的成績。
+
+        </p>
+        <p class="opening">
+            由此可見不分系制度的出發點，可以說是為了廣大學生考量，而目前傳院已經完成第三屆分系。
+        </p>
+
+        <!--這是第一段：三系分流人數-->
+        <p class="small-title">
+            歷年分流人數
+        </p>
+        <figure class="inside-img">
+            <img src="img2-student.png" alt="歷年分流人數" width="100%" />
+        </figure>
+        <p class="inside-word">
+            第一屆不分系學生在104年進行分流，表中可以看到七成左右的學生選擇廣告、廣電系，新聞系僅不到三成的學生。第二、第三屆分系分流走向也沒有太大變化，新聞系人數皆沒有超過三成。值得注意的是分流進廣電系的學生人數在增加。
+        </p>
+
+        <!--這是第二段：不分系課程統計-->
+        <p class="small-title">
+            三系課程各年級分佈
+        </p>
+        <figure class="inside-img">
+            <img src="img1-course.png" alt="三系課程各年級分佈" width="100%" />
+        </figure>
+        <p class="inside-word">
+            大一大二不分系時，三系開課量較為平均，期望學生利用兩年的時間，探索興趣所在。分流後進入大三大四的專業課程，綜觀開課狀況，新聞系開課數量較少於兩廣科系，此為新聞系學生較為困擾的部分。
+        </p>
+
+        <!--這是結語-->
+        <p class="ending">
+            各系學生分流人數可以看出學生對媒體的想像。分系前後的課程分佈，也是各系持續根據學生需求調整及安排。相信你心裡冒出不少對不分系的疑問，而事實上針對這個剛上任的制度，尤其即將畢業的第一屆不分系學生們，確實有話想說。
+        </p>
+
+        <!--這是延伸閱讀-->
+        <div class="related">
+            <p class="related-title">相關閱讀</p>
+            <div class="list-unstyled">
+                <div class="media related-box">
+                    <img class="align-self-center mr-3" src="cover.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <b class="mt-0 mb-1">畢業生與教授真心話</b>
+                        <p>畢業不可怕，面對未來才可怕。同學你準備好了嗎？我是不知道你們好了沒，我是還沒啦。</p>
+                    </div>
+                </div>
+                <div class="media my-4 related-box">
+                    <img class="align-self-center mr-3" src="cover.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <b class="mt-0 mb-1">畢業生與教授真心話</b>
+                        <p>畢業不可怕，面對未來才可怕。同學你準備好了嗎？我是不知道你們好了沒，我是還沒啦。</p>
+                    </div>
+                </div>
+                <div class="media related-box">
+                    <img class="align-self-center mr-3" src="cover.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <b class="mt-0 mb-1">畢業生與教授真心話</b>
+                        <p>畢業不可怕，面對未來才可怕。同學你準備好了嗎？我是不知道你們好了沒，我是還沒啦。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </article>
+    <!--Java Script放body-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 <footer>
