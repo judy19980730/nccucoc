@@ -393,7 +393,7 @@
         .flex-container1 {
             display: flex;
             background-color: #F2DCBA;
-            width:900px;
+            width: 900px;
             height: 447px;
             align-items: flex-end;
             justify-content: center;
@@ -622,6 +622,194 @@
                 height: 212px;
             }
         }
+
+        .container-grade1 {
+            display: flex;
+            background-color: #F2DCBA;
+            width: 100%;
+            height: 120px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .container-grade2 {
+            display: flex;
+            background-color: #F2DCBA;
+            width: 100%;
+            height: 120px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .container-grade3 {
+            display: flex;
+            background-color: #F2DCBA;
+            width: 100%;
+            height: 120px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .container-grade4 {
+            display: flex;
+            background-color: #F2DCBA;
+            width: 100%;
+            height: 120px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .width-will-grow {
+            width: 0px;
+            height: 80px;
+            background-color: #D38D8E;
+        }
+
+        .width-will-grow2 {
+            width: 0px;
+            height: 80px;
+            background-color: #9FAA8F;
+        }
+
+        .width-will-grow3 {
+            width: 0px;
+            height: 80px;
+            background-color: #92AFB5;
+        }
+
+        .width-will-grow4 {
+            width: 0px;
+            height: 80px;
+            background-color: #D38D8E;
+        }
+
+        .width-will-grow5 {
+            width: 0px;
+            height: 80px;
+            background-color: #9FAA8F;
+        }
+
+        .width-will-grow6 {
+            width: 0px;
+            height: 80px;
+            background-color: #92AFB5;
+        }
+
+        .width-will-grow7 {
+            width: 0px;
+            height: 80px;
+            background-color: #D38D8E;
+        }
+
+        .width-will-grow8 {
+            width: 0px;
+            height: 80px;
+            background-color: #9FAA8F;
+        }
+
+        .width-will-grow9 {
+            width: 0px;
+            height: 80px;
+            background-color: #92AFB5;
+        }
+
+        .width-will-grow10 {
+            width: 0px;
+            height: 80px;
+            background-color: #D38D8E;
+        }
+
+        .width-will-grow11 {
+            width: 0px;
+            height: 80px;
+            background-color: #9FAA8F;
+        }
+
+        .width-will-grow12 {
+            width: 0px;
+            height: 80px;
+            background-color: #92AFB5;
+        }
+
+        .width-will-grow,
+        .width-will-grow2,
+        .width-will-grow6,
+        .width-will-grow8 {
+            animation-name: grow-from-0-to-500;
+            animation-duration: 5s;
+            animation-delay: .5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite
+        }
+
+        .width-will-grow3,
+        .width-will-grow5,
+        .width-will-grow7,
+        .width-will-grow9,
+        .width-will-grow11,
+        .width-will-grow12 {
+            animation-name: grow-from-0-to-300;
+            animation-duration: 5s;
+            animation-delay: .5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite
+        }
+
+        .width-will-grow4 {
+            animation-name: grow-from-0-to-450;
+            animation-duration: 5s;
+            animation-delay: .5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite
+        }
+
+        .width-will-grow10 {
+            animation-name: grow-from-0-to-550;
+            animation-duration: 5s;
+            animation-delay: .5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite
+        }
+
+        @keyframes grow-from-0-to-500 {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 500px;
+            }
+        }
+
+        @keyframes grow-from-0-to-300 {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 300px;
+            }
+        }
+
+        @keyframes grow-from-0-to-450 {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 450px;
+            }
+        }
+
+        @keyframes grow-from-0-to-550 {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 550px;
+            }
+        }
     </style>
 
 </head>
@@ -689,34 +877,42 @@
             <figure class="inside-img">
                 <img src="title1.png" alt="歷年分流人數" width="45%" />
             </figure>
-            <!--數字動畫尚未成功-->
-            <!--<div class="bg">
-                    <div id="area-4" class="animation-block a4-bg">
-                        <img src="people1.png" class="toy row1 fadeInUp" width="5%"></img>
-                        <img src="people2.png" class="toy base-row row2 fadeInUp" width="5%"></img>
-                        <img src="people3.png" class="toy base-row row3 fadeInUp" width="5%"></img>
-                        <img src="people4.png" class="toy base-row row4 fadeInUp" width="5%"></img>
-                        <img src="people5.png" class="toy base-row row5 fadeInUp" width="5%"></img>
-                        <img src="people6.png" class="toy row6 fadeInUp" width="5%"></img>
-                        <img src="people7.png" class="toy row7 fadeInUp" width="5%"></img>
-                        <img src="people8.png" class="toy row8 fadeInUp" width="5%"></img>
-                    </div>-->
+
             <div class="flex-container1">
-                <div class="height-will-grow"></div>
-                <div class="height-will-grow2"></div>
-                <div class="height-will-grow3"></div>
-                <div class="height-will-grow4"></div>
-                <div class="height-will-grow5"></div>
-                <div class="height-will-grow6"></div>
-                <div class="height-will-grow7"></div>
-                <div class="height-will-grow8"></div>
-                <div class="height-will-grow9"></div>
+                <div class="height-will-grow">
+                    <img src="people1.png" width="75%">
+                </div>
+                <div class="height-will-grow2">
+                    <img src="people2.png" width="70%">
+                </div>
+                <div class="height-will-grow3">
+                    <img src="people3.png" width="70%">
+                </div>
+                <div class="height-will-grow4">
+                    <img src="people4.png" width="70%">
+                </div>
+                <div class="height-will-grow5">
+                    <img src="people5.png" width="70%">
+                </div>
+                <div class="height-will-grow6">
+                    <img src="people6.png" width="70%">
+                </div>
+                <div class="height-will-grow7">
+                    <img src="people7.png" width="65%">
+                </div>
+                <div class="height-will-grow8">
+                    <img src="people8.png" width="65%">
+                </div>
+                <div class="height-will-grow9">
+                    <img src="people9.png" width="65%">
+                </div>
                 <div class="example"></div>
             </div>
             <figure class="inside-img">
-                <img src="bottom1.png" alt="歷年分流人數" width="70%" />
+                <img src="bottom1.png" alt="歷年分流人數" width="80%" />
             </figure>
         </div>
+
         <p class="inside-word">
             第一屆不分系學生在104年進行分流，表中可以看到七成左右的學生選擇廣告、廣電系，新聞系僅不到三成的學生。第二、第三屆分系分流走向也沒有太大變化，新聞系人數皆沒有超過三成。值得注意的是分流進廣電系的學生人數在增加。
         </p>
@@ -724,40 +920,120 @@
         <!--這是第二段：不分系課程統計-->
         <div class="cenfig">
             <figure class="inside-img">
-                <img src="img1-course.png" alt="三系課程各年級分佈" width="100%" />
+                <img src="title3.png" width="70%"></img>
+            </figure>
+
+
+            <body>
+                <div class="container-grade1">
+                    <div class="width-will-grow">
+                        <img src="36%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow2">
+                        <img src="36%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow3">
+                        <img src="28%.png" height="50%">
+                    </div>
+                    <div class="example"></div>
+                </div>
+            </body>
+            <figure class="inside-img">
+                <img src="grade1.png" alt="三系課程分佈" width="8%" margin=auto/>
+            </figure>
+
+            <body>
+                <div class="container-grade2">
+                    <div class="width-will-grow4">
+                        <img src="33%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow5">
+                        <img src="29%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow6">
+                        <img src="38%.png" height="50%">
+                    </div>
+                    <div class="example"></div>
+                </div>
+            </body>
+            <figure class="inside-img">
+                <img src="grade2.png" alt="三系課程分佈" width="8%" margin=auto/>
+            </figure>
+
+            <body>
+                <div class="container-grade3">
+                    <div class="width-will-grow7">
+                        <img src="28%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow8">
+                        <img src="44%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow9">
+                        <img src="28%.png" height="50%">
+                    </div>
+                    <div class="example"></div>
+                </div>
+            </body>
+
+            <figure class="inside-img">
+                <img src="grade3.png" alt="三系課程分佈" width="8%" margin=auto/>
+            </figure>
+
+            <body>
+                <div class="container-grade4">
+                    <div class="width-will-grow10">
+                        <img src="49%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow11">
+                        <img src="24%.png" height="50%">
+                    </div>
+                    <div class="width-will-grow12">
+                        <img src="27%.png" height="50%">
+                    </div>
+                    <div class="example"></div>
+                </div>
+            </body>
+            <figure class="inside-img">
+                <img src="grade4.png" alt="三系課程分佈" width="8%" margin=auto />
             </figure>
         </div>
-        <p class="inside-word">
-            大一大二不分系時，三系開課量較為平均，期望學生利用兩年的時間，探索興趣所在。分流後進入大三大四的專業課程，綜觀開課狀況，新聞系開課數量較少於兩廣科系，此為新聞系學生較為困擾的部分。
-        </p>
+            <!--<div class="cenfig">
+            <figure class="inside-img">
+                <img src="img1-course.png" alt="三系課程各年級分佈" width="100%" />
+            </figure>
+        </div>-->
+            <p class="inside-word">
+                大一大二不分系時，三系開課量較為平均，期望學生利用兩年的時間，探索興趣所在。分流後進入大三大四的專業課程，綜觀開課狀況，新聞系開課數量較少於兩廣科系，此為新聞系學生較為困擾的部分。
+            </p>
 
-        <!--這是結語-->
-        <p class="ending">
-            各系學生分流人數可以看出學生對媒體的想像。分系前後的課程分佈，也是各系持續根據學生需求調整及安排。相信你心裡冒出不少對不分系的疑問，而事實上針對這個剛上任的制度，尤其即將畢業的第一屆不分系學生們，確實有話想說。
-        </p>
 
-        <!--這是相關閱讀-->
-        <article>
-            <!--最上方的相關閱讀四個字-->
-            <div class="related-reading">相關閱讀</div>
+            <!--這是結語-->
+            <p class="ending">
+                各系學生分流人數可以看出學生對媒體的想像。分系前後的課程分佈，也是各系持續根據學生需求調整及安排。相信你心裡冒出不少對不分系的疑問，而事實上針對這個剛上任的制度，尤其即將畢業的第一屆不分系學生們，確實有話想說。
+            </p>
 
-            <!--相關閱讀的框框們，我只有用一個，其他的用同一個去複製改內容就好，這些我都有做RWD，讓平板以上寬度的才會顯示出簡述-->
-            <!--記得href中的網址改成要連結出去的網站，我這個面向的網址是https://stevenmanto.github.io/communication/mainpage，再麻煩韻+龐/吉+蓁把各自面向的主頁網址告訴我惹-->
-            <a href="https://stevenmanto.github.io/communication/mainpage" target="_self" style="text-decoration: none;color:#6D615B">
-                <div class="media related-box">
-                    <img class="align-self-center mr-3 related-img" src="https://stevenmanto.github.io/communication/award.jpg" alt="影視專題系列報導">
-                    <div class="media-body">
-                        <!--相關閱讀的標題-->
-                        <h5>大銀幕背後－影視產業的現實與挑戰【影視系列專題】</h5>
-                        <!--麻煩大家底下這兩行，不論你mobile上的標題是否要分成兩行，都請再複製進去，如果只需要一行就請把第二行刪掉-->
-                        <div class="related-mobile-font">大銀幕背後－</div>
-                        <div class="related-mobile-font">影視產業的現實與挑戰【影視系列專題</div>
-                        <!--相關閱讀的簡述-->
-                        <p class="related-font">本系列專題以影視產業作為出發點，探討台灣的影視產業現況，延伸至擁有影視夢的相關科系學生，帶出大銀幕背後的真相。</p>
+            <!--這是相關閱讀-->
+            <article>
+                <!--最上方的相關閱讀四個字-->
+                <div class="related-reading">相關閱讀</div>
+
+                <!--相關閱讀的框框們，我只有用一個，其他的用同一個去複製改內容就好，這些我都有做RWD，讓平板以上寬度的才會顯示出簡述-->
+                <!--記得href中的網址改成要連結出去的網站，我這個面向的網址是https://stevenmanto.github.io/communication/mainpage，再麻煩韻+龐/吉+蓁把各自面向的主頁網址告訴我惹-->
+                <a href="https://stevenmanto.github.io/communication/mainpage" target="_self" style="text-decoration: none;color:#6D615B">
+                    <div class="media related-box">
+                        <img class="align-self-center mr-3 related-img" src="https://stevenmanto.github.io/communication/award.jpg" alt="影視專題系列報導">
+                        <div class="media-body">
+                            <!--相關閱讀的標題-->
+                            <h5>大銀幕背後－影視產業的現實與挑戰【影視系列專題】</h5>
+                            <!--麻煩大家底下這兩行，不論你mobile上的標題是否要分成兩行，都請再複製進去，如果只需要一行就請把第二行刪掉-->
+                            <div class="related-mobile-font">大銀幕背後－</div>
+                            <div class="related-mobile-font">影視產業的現實與挑戰【影視系列專題</div>
+                            <!--相關閱讀的簡述-->
+                            <p class="related-font">本系列專題以影視產業作為出發點，探討台灣的影視產業現況，延伸至擁有影視夢的相關科系學生，帶出大銀幕背後的真相。</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </article>
+                </a>
+            </article>
     </article>
     <!--Java Script放body-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
