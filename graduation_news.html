@@ -37,7 +37,7 @@
             box-sizing: border-box;
         }
 
-        article {
+        .article1 {
             margin-left: 20px;
             margin-right: 20px;
         }
@@ -118,7 +118,7 @@
             }
         }
 
-        header {
+        article>header {
             max-width: calc(280/320*100%);
             margin: 0 auto;
         }
@@ -222,63 +222,10 @@
             color: #6d615b;
         }
 
-        .mr-3 {
-            width: 80px;
-            height: auto;
-        }
-
-        .related {
-            max-width: calc(280/320*100%);
-            margin: 0 auto;
-        }
-
-        @media screen and (min-width:768px) {
-            .related {
-                max-width: 768px;
-            }
-        }
-
-        @media screen and (min-width:1024px) {
-            .related {
-                max-width: 1024px;
-            }
-        }
-
-        .related-title {
-            margin-top: 50px;
-            margin-bottom: 20px;
-            font-size: 18px;
-            font-weight: bold;
-            text-align: center;
-            color: #6d615b;
-        }
-
-        .related-box {
-            padding: 10px;
-            background-color: #e7cfaa;
-        }
-
-        .related-box:hover {
-            background-color: white;
-            cursor: pointer;
-        }
-
-        .media-body {
-            font-size: 16px;
-            text-align: left;
-            color: #6d615b;
-        }
-
-        .mt-0 {
-            font-size: 18px;
-            text-align: left;
-            color: #6d615b;
-        }
-
-
+        
         footer {
             margin-top: 40px;
-            background-color: #F2DCBA
+            background-color: #92AFB5
         }
 
         .flex-footer {
@@ -298,6 +245,7 @@
         .footer-item:hover {
             opacity: 0.5;
         }
+
 
         h5 {
             font-size: 18px;
@@ -356,7 +304,7 @@
 
         @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-            article {
+            .article1 {
                 margin-left: 80px;
                 margin-right: 80px;
             }
@@ -392,7 +340,7 @@
 
         @media screen and (min-width:1024px) {
 
-            article {
+            .article1 {
                 margin-left: 200px;
                 margin-right: 200px;
             }
@@ -424,7 +372,7 @@
     <!--這是header-->
     <header>
         <!--這是header上的笑臉-->
-        <div class="flex-container">
+        <div class="flex-container article1">
             <a href="https://stevenmanto.github.io/communication/home" target="_self">
                 <div class="flex-item1">
                     <img title="回首頁" src="logo.png" width="50px"></img>
@@ -517,8 +465,8 @@
                         <!--相關閱讀的標題-->
                         <h5>大銀幕背後－影視產業的現實與挑戰【影視系列專題】</h5>
                         <!--麻煩大家底下這兩行，不論你mobile上的標題是否要分成兩行，都請再複製進去，如果只需要一行就請把第二行刪掉-->
-                        <div class="related-mobile-font">關於</div>
-                        <div class="related-mobile-font">政大傳院不分系</div>
+                        <div class="related-mobile-font">大銀幕背後－</div>
+                        <div class="related-mobile-font">影視產業的現實與挑戰【影視系列專題</div>
                         <!--相關閱讀的簡述-->
                         <p class="related-font">本系列專題以影視產業作為出發點，探討台灣的影視產業現況，延伸至擁有影視夢的相關科系學生，帶出大銀幕背後的真相。</p>
                     </div>
