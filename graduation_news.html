@@ -154,7 +154,13 @@
 
         @media screen and (min-width:1024px) {
             .author {
-                max-width: 900px;
+                max-width: 1024px;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            .author {
+                max-width: 800px;
             }
         }
 
@@ -166,7 +172,13 @@
 
         @media screen and (min-width:1024px) {
             .photographer {
-                max-width: 900px;
+                max-width: 1024px;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            .photographer {
+                max-width: 800px;
             }
         }
 
@@ -222,7 +234,7 @@
             color: #6d615b;
         }
 
-        
+
         footer {
             margin-top: 40px;
             background-color: #92AFB5
@@ -299,7 +311,6 @@
             h5 {
                 display: none;
             }
-
         }
 
         @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -333,9 +344,6 @@
             .related-mobile-font {
                 display: none;
             }
-
-
-
         }
 
         @media screen and (min-width:1024px) {
@@ -372,7 +380,7 @@
     <!--這是header-->
     <header>
         <!--這是header上的笑臉-->
-        <div class="flex-container article1">
+        <div class="flex-container">
             <a href="https://stevenmanto.github.io/communication/home" target="_self">
                 <div class="flex-item1">
                     <img title="回首頁" src="logo.png" width="50px"></img>
@@ -472,6 +480,7 @@
                     </div>
                 </div>
             </a>
+        </article>
     </article>
     <!--Java Script放body-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
