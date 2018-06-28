@@ -57,8 +57,8 @@
         }
 
         .flex-item1 {
-            padding-top:20px;
-            padding-bottom:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             font-weight: bold;
             font-size: 28px;
             margin: auto;
@@ -67,8 +67,8 @@
         }
 
         .flex-item2 {
-            padding-top:20px;
-            padding-bottom:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             font-weight: bold;
             font-size: 28px;
             margin: auto;
@@ -77,8 +77,8 @@
         }
 
         .flex-item3 {
-            padding-top:20px;
-            padding-bottom:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             font-weight: bold;
             font-size: 28px;
             margin: auto;
@@ -86,8 +86,8 @@
         }
 
         .flex-item4 {
-            padding-top:20px;
-            padding-bottom:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             font-weight: bold;
             font-size: 28px;
             margin: auto;
@@ -269,13 +269,26 @@
             color: #6D615B
         }
 
-        .related-box {
+        .related-box1 {
             width: 80%;
             margin: 40px auto 0 auto;
             padding: 20px;
+            background-color: #D38D8E;
         }
 
-        .related-box:hover {
+        .related-box1:hover {
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .related-box2 {
+            width: 80%;
+            margin: 40px auto 0 auto;
+            padding: 20px;
+            background-color: #9FAA8F;
+        }
+
+        .related-box2:hover {
             background-color: white;
             cursor: pointer;
         }
@@ -404,6 +417,35 @@
             justify-content: center;
             margin: 0 auto;
         }
+
+        .bottom1 {
+            width: 900px;
+        }
+
+        @media screen and (max-width:768px) {
+            .flex-container1 {
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 280px;
+            }
+            .bottom1 {
+                width: 280px;
+            }
+        }
+
+        @media screen and (min-width:768px) and (max-width:1024px) {
+            .flex-container1 {
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 700px;
+            }
+            .bottom1 {
+                width: 700px;
+            }
+
+        }
+
+
 
         .height-will-grow {
             width: 80px;
@@ -914,7 +956,7 @@
                 <div class="example"></div>
             </div>
             <figure class="inside-img">
-                <img src="bottom1.png" alt="歷年分流人數" width="80%" />
+                <img class="bottom1" src="bottom1.png" alt="歷年分流人數" />
             </figure>
         </div>
 
@@ -1025,7 +1067,7 @@
             <!--相關閱讀的框框們，我只有用一個，其他的用同一個去複製改內容就好，這些我都有做RWD，讓平板以上寬度的才會顯示出簡述-->
             <!--記得href中的網址改成要連結出去的網站，我這個面向的網址是https://stevenmanto.github.io/communication/mainpage，再麻煩韻+龐/吉+蓁把各自面向的主頁網址告訴我惹-->
             <a href="https://logickingjung.github.io/teach-example/ts/ts-conversation" target="_self" style="text-decoration: none;color:#6D615B">
-                <div class="media related-box" style="background-color: #D38D8E;">
+                <div class="media related-box1">
                     <img class="align-self-center mr-3 related-img" src="https://stevenmanto.github.io/communication/logo.png" alt="師生聊天室">
                     <div class="media-body">
                         <!--相關閱讀的標題-->
@@ -1039,7 +1081,7 @@
             </a>
 
             <a href="https://stevenmanto.github.io/communication/mainpage" target="_self" style="text-decoration: none;color:#6D615B">
-                <div class="media related-box" style="background-color: #9FAA8F;">
+                <div class="media related-box2">
                     <img class="align-self-center mr-3 related-img" src="https://stevenmanto.github.io/communication/award.jpg" alt="影視專題系列報導">
                     <div class="media-body">
                         <!--相關閱讀的標題-->
