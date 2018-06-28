@@ -786,7 +786,7 @@
         .width-will-grow2,
         .width-will-grow6,
         .width-will-grow8 {
-            animation-name: grow-from-0-to-500;
+            animation-name: grow-from-0-to-498;
             animation-duration: 5s;
             animation-delay: .5s;
             animation-fill-mode: forwards;
@@ -799,7 +799,7 @@
         .width-will-grow9,
         .width-will-grow11,
         .width-will-grow12 {
-            animation-name: grow-from-0-to-300;
+            animation-name: grow-from-0-to-499;
             animation-duration: 5s;
             animation-delay: .5s;
             animation-fill-mode: forwards;
@@ -807,7 +807,7 @@
         }
 
         .width-will-grow4 {
-            animation-name: grow-from-0-to-450;
+            animation-name: grow-from-0-to-500;
             animation-duration: 5s;
             animation-delay: .5s;
             animation-fill-mode: forwards;
@@ -815,11 +815,29 @@
         }
 
         .width-will-grow10 {
-            animation-name: grow-from-0-to-550;
+            animation-name: grow-from-0-to-501;
             animation-duration: 5s;
             animation-delay: .5s;
             animation-fill-mode: forwards;
             animation-iteration-count: 3
+        }
+
+        @keyframes grow-from-0-to-498 {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 498px;
+            }
+        }
+
+        @keyframes grow-from-0-to-499 {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 499px;
+            }
         }
 
         @keyframes grow-from-0-to-500 {
@@ -831,30 +849,12 @@
             }
         }
 
-        @keyframes grow-from-0-to-300 {
+        @keyframes grow-from-0-to-501 {
             from {
                 width: 0px;
             }
             to {
-                width: 300px;
-            }
-        }
-
-        @keyframes grow-from-0-to-450 {
-            from {
-                width: 0px;
-            }
-            to {
-                width: 450px;
-            }
-        }
-
-        @keyframes grow-from-0-to-550 {
-            from {
-                width: 0px;
-            }
-            to {
-                width: 550px;
+                width: 501px;
             }
         }
     </style>
